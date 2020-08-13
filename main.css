@@ -1,0 +1,61 @@
+p{
+	color:red;
+	font:bold italics size Jokerman;/*weigth style size type*/
+}
+h1{
+	background-color:green;
+	padding-left:450px;/*top right bottom left*/
+	border-top:4px dotted green;/*size style color*/
+	border-bottom:4px dotted blue;
+	margin:40px/*top right bottom left*/
+}
+h2{
+	color:blue;
+}
+
+div{
+	border:3px solid blue;/*size style color*/
+	background-color:pink;
+	width:300px;
+	text-align:center;
+	border-top-left-radius:30px;
+	border-bottom-right-radius:30px;
+	background-image:linear-gradient(to top, pink, #0299ef);
+	
+	
+}
+span{
+	color:red;
+	text-decoration:underline;
+}
+
+body{
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+a{
+	color:indigo;
+	text-decoration:none;
+}
+
+a:hover{
+	color:pink;
+	text-decoration:underline;
+}
+
+a:active{
+	color:green;
+}
+
+a:visited{
+	color:blue;
+	text-decoration:none;
+}
+
+ul{
+	list-style-type:bullets;
+	line-height:200%;
+	/*list-style-image:url(img.jpg);*/
+}
